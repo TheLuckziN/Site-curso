@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Luck Store - A loja para os Gamers</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/pgprodutos.css">
+
+    <!-- Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- Parallax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/parallax.min.js"></script>
+
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <!-- Logo no Title -->
+    <link rel="shortcut icon" href="../img/logopadrao.png" sizes="32x32">
+</head>
+<body>
+    
+    <!-- INICIO DO CABELÇALHO -->
+    <div class="container" id="nav-container">
+        <!-- add essa class -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" src="../img/logo.png" alt="Luck Store"> LUCK STORE
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="index.html">Página Inicial</span></a>
+              <a class="nav-item nav-link" id="about-menu" href="./utils/produtos.html">Produtos</a>
+              <a class="nav-item nav-link" id="services-menu" href="./utils/contato.html">Contato</a>
+              <div>
+                <a class="nav-item nav-link" href="./utils/login.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    <!-- FINAL DO CABELÇALHO -->
+
+    <div class="carousel-inner">
+        <div id="about-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="main-title"></h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="../img/itemmousepad.jpg" alt="">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Mousepad Gamer SPEED MPG102 Preto</h3>
+                <p class="espaco-line">
+                    <strong>Cor:</strong> ‎Preto<br>
+                    <strong>Altura do produto:</strong> 7.6 centímetros<br>
+                    <strong>Largura do produto:</strong> ‎‎38.4 centímetros<br>
+                    <strong>Peso do produto:</strong> 340 g<br>
+                    <strong>Dimensões do produto:</strong> 7.8 x 38.4 x 7.6 cm; 340 g<br>
+                    <strong>Funciona a bateria ou pilha?</strong> Não
+                </p>
+                <form action="#">
+                    <div class="form-group">
+                      <label for="produtos-quantidade-itens"> <strong>Valor: R$35,00</strong><br><strong>Quantidade:</strong></label>
+                      <select class="form-control" id="produtos-quantidade-itens">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+      
+                    <script class="mercadopago-button" src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"data-preference-id="544535085-c4f7c890-dbf5-4285-9274-d7b1d1f1a932" data-source="button"></script>                    
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- INICIO FOOTER -->
+    <footer class="page-footer bg-dark">
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto mb-4">
+                  <h6 class="text-white font-weight-bold">Luck Store</h6>
+                  <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
+                  <p class="mt-2 text-white">Nós da Luck Store somos uma empresa independente.<br> Temos ligação apenas com a empresa de acessórios para Games Fortrek.</p>
+                </div>
+                <div class="col-md-2 mx-auto mb-4">
+                  <h6 class="text-white font-weight-bold">Outros Links</h6>
+                  <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+                    <ul class="list-unstyled">
+                      <li class="my-2"><a class="text-white" href="../index.html">Página Inicial</a></li>        
+                      <li class="my-2"><a class="text-white" href="../utils/produtos.html">Produtos</a></li>
+                      <li class="my-2"><a class="text-white" href="../utils/login.html">Login</a></li>
+                      <li class="my-2"> <a class="text-white" href="../utils/contato.html">Contato</a></li>         
+                    </ul>
+                </div>
+                <div class="col-md-3 mx-auto mb-4">
+                  <h6 class="text-white font-weight-bold">Contatos</h6>
+                  <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+                    <ul class="list-unstyled">
+                      <li class="my-2 text-white"><i class="fas fa-home mr-3"></i> Rua Floriano Peixoto, 450, Itu-SP</li>
+                      <li class="my-2 text-white"><i class="fas fa-envelope mr-3"></i> luckstore@gmail.com</li>
+                      <li class="my-2 text-white"><i class="fas fa-phone mr-3"></i> +11 4002-8922</li>
+                      <li class="my-2 text-white"><i class="fas fa-print mr-3"></i> +11 4002-8922</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          
+            <div class="footer-copyright text-center text-white py-3">
+              <p class="text-white"> Luck Store &copy; Todos os Direitos Reservados 2021.</p>
+              <p class="text-white">Site totalmente desenvolvido por <a class="text-white" href="https://github.com/TheLuckziN">Lucas Gabriel</a></p>
+            </div>
+          </footer>
+    <!-- FINAL FOOTER -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>

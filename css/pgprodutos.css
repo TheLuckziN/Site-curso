@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+  
+.row {
+    margin: 0;
+}
+  
+.container {
+    padding: 70px 0;
+}
+  
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+  /* INICIO SCROLL SITE */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #0e0b16;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #331586;
+    border: 3px solid #331586; 
+}
+  /* FINAL SCROLL SITE*/
+
+  /* INICIO HEADER */
+header, .navbar {
+    background-color: #0e0b16;
+}
+  
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+  
+#logo {
+    width: 75px;
+}
+  
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+  
+.navbar-brand:hover {
+    color: #FFF;
+}
+  
+#navbar-links a {
+    color: #FFF;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+  
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
+/* FINAL HEADER */
+
+.row {
+    padding-top: 23px !important;
+}
+
+.about-title {
+    padding-top: 100px !important;
+}
+
+.espaco-line {
+    line-height: 27px !important;
+}
+
+.btn-success {
+    background-color: #280264;
+    border: 0;
+}
+
+.mercadopago-button {
+    padding: 0 1.7142857142857142em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.875em;
+    line-height: 2.7142857142857144;
+    width: 540px;
+    background: #6610f2 !important;
+    border-radius: 0.2857142857142857em;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-success:hover {
+    background-color: #6610f2;
+    border: 1px solid gray;
+}
+/* INICIO ALTERAÇÃO FOOTER */
+footer .bg-success {
+    background-color: #6610f2 !important;
+    width: 150px !important;
+}
+/* FINAL ALTERAÇÃO FOOTER */

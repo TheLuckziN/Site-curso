@@ -1,0 +1,136 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css);
+/* GERAL */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e0b16;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .container1 {
+    padding: 70px 0;
+  }
+  
+  p, li {
+    color: #444;
+    font-size: 14px;
+  }
+
+  /* INICIO SCROLL SITE */
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0e0b16;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #331586;    /* color of the scroll thumb */
+    /*border-radius: 20px;*/      /* roundness of the scroll thumb */
+    border: 3px solid #331586;  /* creates padding around scroll thumb */
+  }
+  /* FINAL SCROLL SITE*/
+
+  /* INICIO HEADER */
+  header, .navbar {
+    background-color: #0e0b16;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 75px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+
+  #ngclogin {
+      background-color: #6610f2;
+      text-transform: uppercase;
+      width: 95px;
+      height: 40px;
+      padding-top: 20px;
+      border-radius: 30px;
+      text-align: center !important;
+      border: 3px solid transparent;
+  }
+/* FINAL HEADER */
+
+/* INICIO PRODUTOS */
+.container {
+  margin-top: 110px !important;
+}
+
+.card {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform .3s;
+}
+
+.text1 {
+  font-size: 13px;
+  color: #8b8b8b;
+}
+
+.info {
+  line-height: 17px;
+}
+
+.star {
+  color: #fbc02d;
+}
+
+.botao {
+  background: #6610f2;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.botao:hover {
+  background: 	#0000CD;
+  border: 0px solid gray;
+}
+/* FINAL PRODUTOS */
+
+body a {
+  text-decoration: none;
+}
+
+/* INICIO FOOTER */
+footer .bg-success {
+  background-color: #7126e9 !important;
+  width: 150px !important;
+}
+/* FINAL FOOTER */

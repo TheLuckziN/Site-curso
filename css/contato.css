@@ -1,0 +1,86 @@
+/* GERAL */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(234 , 249,251,0.63) 0.1%, rgba(239,249,251,0.63) 90.1%);
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 70px 0;
+  }
+  
+  p, li {
+    color: #444;
+    font-size: 14px;
+  }
+
+  /* INICIO SCROLL SITE */
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0e0b16;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #331586;    /* color of the scroll thumb */
+    /*border-radius: 20px;*/      /* roundness of the scroll thumb */
+    border: 3px solid #331586;  /* creates padding around scroll thumb */
+  }
+  /* FINAL SCROLL SITE*/
+
+  /* INICIO HEADER */
+  header, .navbar {
+    background-color: #0e0b16;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 75px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+
+  #ngclogin {
+      background-color: #6610f2;
+      text-align: center;
+      text-transform: uppercase;
+      width: 95px;
+      height: 10px;
+      padding-top: 30px;
+      border-radius: 30px;
+      border: 1px solid transparent;
+  }
+/* FINAL HEADER */
+
+footer .bg-success {
+    background-color: #6610f2 !important;
+    width: 150px !important;
+}
